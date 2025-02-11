@@ -14,16 +14,19 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px;
-    background-color: #007bff;
+    background-color: #003366;
     color: #fff;
     position: fixed;
     width: -webkit-fill-available;
 
   }
 
-  .logo img {
-    width: 50px;
-    height: auto;
+  .logo {
+  
+      color: #FFFFFF; /* White text */
+      text-shadow: 8px 8px 8px #0000FF; /* Blue tint as shadow */
+      margin: 0; /* Remove default margin */
+
   }
 
   .main-nav ul {
@@ -101,8 +104,8 @@ body{
 
   /* 2. Hero Section Styles */
 #hero {
-    background: linear-gradient(to right, #1b93efe8, #007bff31), 
-    url('../images/bg.jpg') center/cover no-repeat;
+    background: linear-gradient(to right, #044da7e8, #010a1331), 
+    url('../images/earth.jpg') center/cover no-repeat;
 background-blend-mode: overlay;
     /* Adjust with your actual hero background image & gradient */
     color: #fff;
@@ -231,8 +234,7 @@ background-blend-mode: overlay;
 .product-types {
     padding: 3rem 2rem;
     text-align: center;
-    background-color: #007bff;
-    color: white;
+   
   }
   
   .product-types h2 {
@@ -285,9 +287,25 @@ background-blend-mode: overlay;
   /* choose us section */
 
   /* 7. Why Choose Us Section */
+  .choose{
+    display: flex;
+    flex-direction: row;
+    /* align-items:flex-start; */
+    width: 80%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .choose p{
+      text-align:  start;
+      
+  }
 .why-choose-us {
     padding: 3rem 2rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
   
   .why-choose-us h2 {
