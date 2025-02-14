@@ -14,7 +14,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px;
-    background-color: #003366;
+    background-color: #034e9a;
     color: #fff;
     position: fixed;
     width: -webkit-fill-available;
@@ -74,7 +74,7 @@ body{
     .main-nav ul {
       display: none;
       flex-direction: column;
-      background-color: #007bff;
+      background-color:#034e9a;
       position: absolute;
       align-items: self-end;
       top: 60px;
@@ -136,7 +136,7 @@ background-blend-mode: overlay;
   }
   
   .btn.primary-btn {
-    background-color: #007bff;
+    background-color: #034e9a;
     color: #fff;
     margin-bottom: 20px;
     padding: 0.75rem 1.5rem;
@@ -341,7 +341,7 @@ background-blend-mode: overlay;
     padding-bottom: 20px;
     display: flex;
     align-items: center;
-    background-color: #007bff;
+    background-color: #034e9a;
     color: #fff;
  
 }
@@ -451,7 +451,7 @@ background-blend-mode: overlay;
 
   /* 9. Footer Section */
 .site-footer {
-    background-color: #007bff;
+    background-color: #034e9a;
     padding: 2rem 5rem;
     text-align: center;
     min-height: 400px;
