@@ -152,6 +152,12 @@ background-blend-mode: overlay;
     margin-bottom: 2rem;
   }
   
+  .first{
+    margin-right: 140px;
+  }
+  .third{
+    margin-right: 110px;
+  }
   .btn.primary-btn {
     background-color: #36CAF3;
     color: #fff;
@@ -183,6 +189,12 @@ background-blend-mode: overlay;
       text-align: start;
       width: 80%;
       /* margin: 0 auto; */
+    }
+    .first{
+      margin-right: 0px;
+    }
+    .third{
+      margin-right: 0px;
     }
   }
 

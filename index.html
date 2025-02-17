@@ -47,7 +47,7 @@
       International Quality Advantage LLC (IQA) combines years of expertise 
       in defense and industrial manufacturing, delivering precision-engineered 
       solutions worldwide. With ISO-certified manufacturing platforms across the 
-      USA, Europe, and Asia, we are committed to quality, innovation, 
+      USA, Europe, and Asia, We are committed to quality, innovation, 
       and reliability.
     </p>
   </section>
@@ -118,9 +118,9 @@
   <section id="why-choose-us" class="why-choose-us container">
     <h2>Why Choose IQA?</h2>
     
-      <div class="choose">  <h3>Global Presence</h3> <p> Offices and manufacturing in key global locations.</p></div>
-      <div class="choose"><h3>Turnkey Manufacturing Solutions</h3>   <p> End-to-end services from specification to delivery.</p></div>
-      <div class="choose"><h3>Tailored Innovation</h3> <p>Offering customized solutions to meet specific client needs.</p></div>
+      <div class="choose first">  <h3>Global Presence</h3> <p> Offices and manufacturing in key global locations.</p></div>
+      <div class="choose second"><h3>Turnkey Manufacturing Solutions</h3>   <p> End-to-end services from specification to delivery.</p></div>
+      <div class="choose third"><h3>Tailored Innovation</h3> <p>Offering customized solutions to meet specific client needs.</p></div>
     
   </section>
   
@@ -147,8 +147,12 @@
     <form id="contact-form" action="server.php" method="post" class="contact-form">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required />
-    
-        
+        <label for="company_name">Company Name</label>
+        <input type="text" id="company_name" name="company_name" required />
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" required />
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required />
         <label for="message">Message</label>
         <textarea id="message" name="message" rows="5" required></textarea>
 <!-- Math Problem CAPTCHA -->
@@ -225,7 +229,10 @@
 
       const formData = {
           name: document.getElementById("name").value,
-         
+          company_name: document.getElementById("company_name").value,
+          phone : document.getElementById("phone").value,
+          address: document.getElementById("address").value,
+
           message: document.getElementById("message").value
       };
 
