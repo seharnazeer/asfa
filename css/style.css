@@ -14,18 +14,19 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 30px 20px;
-    background-color: #034e9a;
+    background-color: #36CAF3;
     color: #fff;
-    position: fixed;
-    width: -webkit-fill-available;
+    /* position: fixed; */
+    /* width:  100%; */
 
   }
 
   .logo {
   
       color: #FFFFFF; /* White text */
-      text-shadow: 8px 8px 8px #0000FF; /* Blue tint as shadow */
+      text-shadow: 8px 8px 8px #0080ffbf; /* Blue tint as shadow */
       margin: 0; /* Remove default margin */
+      
 
   }
 
@@ -97,6 +98,19 @@ body{
     .main-nav.active ul {
       display: flex;
     }
+    
+  }
+  @media (max-width: 1000px) {
+   
+    .logo{
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 600px) {
+   
+    .logo{
+      font-size: 12px;
+    }
   }
 
   /* hero section styling */
@@ -104,23 +118,26 @@ body{
 
   /* 2. Hero Section Styles */
 #hero {
-    background: linear-gradient(to right, #044da7e8, #010a1331), 
+    background: linear-gradient(to right, #36CAF3, #010a1331), 
     url('../images/earth.jpg') center/cover no-repeat;
 background-blend-mode: overlay;
     /* Adjust with your actual hero background image & gradient */
     color: #fff;
-    padding: 4rem 2rem;
+    /* padding: 2rem 2rem; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    min-height: 80vh; /* or whatever height you prefer */
+    width: 100%;
+    min-height: 100vh;
     /* position: relative; */
   }
   
   .hero-content {
     max-width: 600px;
+    margin: 1rem 2rem;
     text-align: start;
+    
     /* margin: 0 auto; */
   }
   
@@ -136,7 +153,7 @@ background-blend-mode: overlay;
   }
   
   .btn.primary-btn {
-    background-color: #034e9a;
+    background-color: #36CAF3;
     color: #fff;
     margin-bottom: 20px;
     padding: 0.75rem 1.5rem;
@@ -146,15 +163,26 @@ background-blend-mode: overlay;
   }
   
   .btn.primary-btn:hover {
-    background-color: #0056b3;
+    background-color: #2dd2ff;
   }
 
   @media (max-width: 600px) {
+    #hero {
+      justify-content: center;
+      width: 100vw;
+    }
     .hero-content {
       padding: 15px;
       border-radius: 20px;
       background-color: rgba(0, 0, 0, 0.329);
+ 
       padding-bottom: 30px;
+    }
+    .hero-content {
+   
+      text-align: start;
+      width: 80%;
+      /* margin: 0 auto; */
     }
   }
 
@@ -289,16 +317,13 @@ background-blend-mode: overlay;
   /* 7. Why Choose Us Section */
   .choose{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* align-items:flex-start; */
     width: 80%;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    gap: 0px;
   }
-  .choose p{
-      text-align:  start;
-      
-  }
+
 .why-choose-us {
     padding: 3rem 2rem;
     text-align: center;
@@ -307,23 +332,10 @@ background-blend-mode: overlay;
     flex-direction: column;
     align-items: center;
   }
-  
-  .why-choose-us h2 {
-    margin-bottom: 1.5rem;
+  .choose h3{
+    margin: 8px;
   }
-  
-  .why-choose-us ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto 2rem;
-    max-width: 600px;
-    text-align: left;
-  }
-  
-  .why-choose-us li {
-    margin-bottom: 1rem;
-  }
-  
+ 
   .why-choose-us li strong {
     display: inline-block;
     width: 200px; /* Adjust as needed or remove if you prefer no alignment */
@@ -341,7 +353,7 @@ background-blend-mode: overlay;
     padding-bottom: 20px;
     display: flex;
     align-items: center;
-    background-color: #034e9a;
+    background-color: #36CAF3;
     color: #fff;
  
 }
@@ -444,6 +456,7 @@ background-blend-mode: overlay;
     .contact-us{
         grid-template-columns: 1fr;
     }
+ 
   }
 
   /* footer */
@@ -451,7 +464,7 @@ background-blend-mode: overlay;
 
   /* 9. Footer Section */
 .site-footer {
-    background-color: #034e9a;
+    background-color: #36CAF3;
     padding: 2rem 5rem;
     text-align: center;
     min-height: 400px;
