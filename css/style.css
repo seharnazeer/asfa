@@ -471,6 +471,16 @@ background-blend-mode: overlay;
  
   }
 
+  .address{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+  .address div{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
   /* footer */
 
 
