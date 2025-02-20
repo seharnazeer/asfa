@@ -151,12 +151,17 @@ background-blend-mode: overlay;
     font-size: 1rem;
     margin-bottom: 2rem;
   }
-  
+/*   
   .first{
     margin-right: 140px;
   }
+    */
   .third{
-    margin-right: 110px;
+    margin-left: 25%;
+  } 
+
+  .second{
+    margin-left: 15%;
   }
   .btn.primary-btn {
     background-color: #36CAF3;
