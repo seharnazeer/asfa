@@ -151,18 +151,7 @@ background-blend-mode: overlay;
     font-size: 1rem;
     margin-bottom: 2rem;
   }
-/*   
-  .first{
-    margin-right: 140px;
-  }
-    */
-  .third{
-    margin-left: 25%;
-  } 
 
-  .second{
-    margin-left: 15%;
-  }
   .btn.primary-btn {
     background-color: #36CAF3;
     color: #fff;
@@ -195,14 +184,8 @@ background-blend-mode: overlay;
       width: 80%;
       /* margin: 0 auto; */
     }
-    .first{
-      margin-right: 0px;
-    }
-    .third{
-      margin-right: 0px;
-    }
+   
   }
-
 
   /* about section */
 
@@ -473,6 +456,7 @@ background-blend-mode: overlay;
     .contact-us{
         grid-template-columns: 1fr;
     }
+
  
   }
 
